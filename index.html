@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <nav>
+
+        <div id="burguer-menu" onclick="menuEffect()" class="menu-burguer">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul class="nav-items" id="menu-bar">
+            <li><p>Home</p></li>
+            <li><p>Info</p></li>
+            <li><p>Products</p></li>
+        </ul>
+        
+        
+    </nav>
+
+    <main>
+        <section>
+            <article>
+            <h1>Faça seu cadastro</h1>
+            <br>
+            <p>Tenha acesso a todos os conteúdos da página</p>
+            </article>
+            
+            <picture>
+                <img src="imagens/imagem_G.jpg" alt="">
+                <source media="(min-width:600px )" srcset="Imagem_G.jpg">
+                <source media="(min-width:400px )" srcset="Imagem_M.jpg">
+                <source media="(min-width: 200px)" srcset="Imagem_P.jpg">
+            </picture>
+            
+        </section>
+
+       <article class="page-login">
+        <h2>Login</h2>
+        <p>Email</p>
+        <input type="email" placeholder="exemplo@gmail.com" name="" id="">
+        <p>Senha</p>
+        <input type="password" placeholder="******" name="" id="">
+        <button>Cadastrar</button>
+       </article>
+    </main>
+</body>
+</html>
