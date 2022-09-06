@@ -110,10 +110,9 @@ nav .menu-burguer div{
 }
 
 @media screen and (max-width:720px){
-
-    body{
-        overflow-x: hidden;
-    }
+   body{
+    overflow-x: hidden;
+   }
 
     nav .menu-burguer div{
         cursor: pointer;
@@ -132,18 +131,19 @@ nav .menu-burguer div{
 		right: 0;
         background-color: #131E2f;
         transform: translateX(100%);
-        transition: all .5s;
+        transition: transform .5s ease-in; 
         display: flex;
         flex-direction: column;
-
     }
     nav ul li{
 		display: block;
 		justify-content: flex-start;
         margin-top: 40px;
+        cursor: pointer;
     }
     .navbar{
         transform: translateX(0%);
+       
     }
 
 
